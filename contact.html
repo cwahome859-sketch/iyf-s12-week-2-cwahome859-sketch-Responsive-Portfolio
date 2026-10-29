@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Site</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">My portfolio</a>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>Contact Me</h1>
+            <p>Have a question or an idea? I would love to hear from you.</p>
+        </section>
+
+        <section class="contact-container">
+
+            <div class="contact-info">
+                <h2>Let's connect</h2>
+
+                <p>
+                    You can contact me about my projects,web development, or potential opportunities.
+                </p>
+
+                <p>
+                    <strong>Email:</strong>
+                    <a href="mailto:cwahome859@gmail.com">cwahome@gmail.com</a>
+                </p>
+
+                <p>
+                    <strong>location</strong> Nairobi,Kenya
+                </p>
+            </div>
+
+            <form class="contact-form" action="#" method="post">
+                <label for="name">Full Name</label>
+                <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                autocomplete="name"
+                required
+                >
+
+                <label for="email">Email Address</label>
+                <input
+                type="email"
+                id="name"
+                name="email"
+                placeholder="Enter your email"
+                autocomplete="email"
+                required
+                >
+
+                <label for="message">Message</label>
+                <textarea
+                id="message"
+                name="message"
+                rows="6"
+                placeholder="write your message"
+                required  
+                ></textarea>
+
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+
+                <p class="form-note">
+                    This demonstration form does not send message yet.
+                </p>
+            </form>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;2026 Clement,All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
